@@ -23,3 +23,18 @@ console.log(herro)//null output 0
 let kk=undefined
 let kkk=Number(kk)//output nan not a number
 console.log(kkk)
+
+//bollean conversion
+
+let kkkk=1
+let kkkkk=Boolean(kkkk)
+console.log(typeof kkkk)
+console.log(typeof kkkkk)
+console.log(kkkkk)//output true
+/*
+  1=true, 0=false
+  and give any value to variable like
+  kk="kunal" and when convert from string to boolean output give true
+
+  kk="" and 0 present then give false in boolean conversion
+  */
